@@ -1,0 +1,13 @@
+# POC Configuration (frozen — do not change without group agreement)
+state: "CA"
+year: "2018"
+n_max: 30000          # subsample size
+seed: 42              # global seed
+k: 5                  # CFs per query
+n_queries: 50         # queries from test set
+tau: 0.5              # decision threshold
+income_thresh: 50000  # Folktables default
+method: "random"      # DiCE method for POC (random = model-agnostic)
+n_bootstrap: 10       # bootstrap models for Arman's retraining test
+alpha: 0.2            # IR threshold for ranking
+q: 0.5                # min actionability score for ranking
