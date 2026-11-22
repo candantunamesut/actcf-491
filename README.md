@@ -13,9 +13,9 @@ actcf/
 │   ├── data.py             # ACSIncome data loader, OCCP grouping, MAD scaling
 │   ├── models.py           # Logistic Regression baseline & bootstrap models
 │   ├── generators.py       # DiCE counterfactual generator & query selector
-│   ├── constraints.py      # Actionability & feasibility constraints (Cem)
+│   ├── constraints.py      # Actionability & feasibility constraints (Furkan)
 │   ├── robustness.py       # Input & model retraining robustness (Arman)
-│   └── metrics.py          # Recourse evaluation metrics (Fatma)
+│   └── metrics.py          # Recourse evaluation metrics (Ilgın)
 ├── configs/
 │   └── poc.yaml            # Shared frozen experiment configuration
 ├── experiments/
